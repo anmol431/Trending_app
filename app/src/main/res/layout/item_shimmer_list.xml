@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_profile_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:cardBackgroundColor="@color/grey"
+            app:cardCornerRadius="25dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="24dp"
+            app:cardElevation="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_label1"
+            android:layout_width="150dp"
+            android:layout_height="12dp"
+            android:layout_marginStart="24dp"
+            app:cardBackgroundColor="@color/grey"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintStart_toEndOf="@id/cv_profile_view"
+            app:layout_constraintTop_toTopOf="@id/cv_profile_view" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_label2"
+            android:layout_width="0dp"
+            android:layout_height="12dp"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="15dp"
+            app:cardBackgroundColor="@color/grey"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="@id/cv_profile_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/cv_profile_view"
+            app:layout_constraintTop_toBottomOf="@id/cv_label1" />
+
+        <View
+            android:id="@+id/v_separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/grey"
+            app:layout_constraintTop_toBottomOf="@id/cv_label2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
