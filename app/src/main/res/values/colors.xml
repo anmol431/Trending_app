@@ -13,5 +13,6 @@
     <color name="grey">#DCDCDC</color>
     <color name="mid_grey">#979797</color>
     <color name="dark_grey">#696969</color>
-    <color name="verify_bg">#008AB6</color>
+    <color name="extream_grey">#3B3B3B</color>
+    <color name="btn_green">#7FD78D</color>
 </resources>

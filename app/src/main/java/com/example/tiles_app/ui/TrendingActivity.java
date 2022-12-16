@@ -54,6 +54,4 @@ public class TrendingActivity extends AppCompatActivity {
             adapter.submitList(tilesList);
         });
     }
-
-
 }

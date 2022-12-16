@@ -2,8 +2,9 @@
     <string name="app_name">Trending_app</string>
 
     <string name="error_text">Data not found</string>
-    <string name="something_wrong_text">Something went wrong</string>
-    <string name="internet_connection_text">Please enable internet connection</string>
+    <string name="something_wrong_text">Something went wrong..</string>
+    <string name="internet_connection_text">An alien is probably blocking your signal.</string>
     <string name="trending_text">Trending</string>
+    <string name="retry_text">Retry</string>
 
 </resources>
